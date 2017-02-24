@@ -1,7 +1,6 @@
 # search-to-obj
-___
+
 search-to-obj is a small module to quickly parse location.search, or the query string in an url to an object.
-___
 
 ## Installation
   
