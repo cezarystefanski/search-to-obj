@@ -1,6 +1,6 @@
 {
   "name": "search-to-obj",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Helper module for converting location.search to an object",
   "main": "index.js",
   "scripts": {
