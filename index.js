@@ -3,7 +3,7 @@
  * @param {string} query
  * @return {Object}
  */
-const searchToObj = query => (query ?
+const searchToObj = query => (query && query !== '?' ?
   query.replace('?', '').split('&')
   .reduce((prev, curr) => {
     const exObj = prev;

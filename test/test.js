@@ -34,9 +34,16 @@ const toNullString = () => {
   expect(result).to.equal(expected);
 };
 
+const toNullQuestion = () => {
+  const expected = null;
+  const result = searchToObj('?');
+  expect(result).to.equal(expected);
+};
+
 describe('SearchParser', () => {
   it('should convert single search strings to objects', toObj);
   it('should convert multiple search strings to objects', toComplexObj);
   it('should output null if there is no search string', toNull);
   it('should also return null if the entry is an empty string', toNullString);
+  it('should return null also when wls is "?"', toNullQuestion);
 });
