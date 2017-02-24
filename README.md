@@ -19,7 +19,7 @@ or in node land
 and then just 
 
     const dls = document.location.search;
-    const searchParams = mapQuery(dls);
+    const searchParams = searchToObj(dls);
     console.dir(searchParams);
 
 ## Tests
