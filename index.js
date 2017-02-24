@@ -11,6 +11,6 @@ const searchToObj = query => (query && query !== '?' ?
     exObj[propName] = value;
     return prev;
   }, {}) :
-  null);
+  {});
 
 module.exports = searchToObj;
