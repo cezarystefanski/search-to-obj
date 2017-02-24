@@ -1,10 +1,11 @@
 {
   "name": "search-to-obj",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Helper module for converting location.search to an object",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
     "chai": "^3.5.0"
   },
   "devDependencies": {
+    "coveralls": "^2.11.16",
+    "istanbul": "^0.4.5",
     "mocha": "^3.2.0"
   }
 }
