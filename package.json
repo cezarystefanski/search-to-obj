@@ -1,0 +1,25 @@
+{
+  "name": "search-to-obj",
+  "version": "1.0.0",
+  "description": "Helper module for converting location.search to an object",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cezarystefanski/search-to-obj.git"
+  },
+  "author": "Cezary Stefanski <cezarystefanski@gmail.com> (http://csdd.com.pl/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cezarystefanski/search-to-obj/issues"
+  },
+  "homepage": "https://github.com/cezarystefanski/search-to-obj#readme",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
